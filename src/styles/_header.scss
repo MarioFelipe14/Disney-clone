@@ -1,9 +1,9 @@
 @use 'variaveis';
 
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
-    right: 0;
+    left: 0;
     background-color: variaveis.$corDeFundo;
     transition: background-color .5s ease;
     z-index: 1;
