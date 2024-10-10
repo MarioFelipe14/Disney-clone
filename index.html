@@ -170,7 +170,10 @@
     </div>
     </section>
     <section class="image-text-section--image-full-width">
-        <img src="./dist/images/fundo_rei_leao.png" alt="rei leao">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="rei leao">
+        </picture>
     <div class="image-text-section--image-full-width__text__container">
         <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">
@@ -310,6 +313,6 @@ O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda.,
         </p>
     </footer>
         </div>
-    <script src="./src/main.js"></script>
+    <script src="./dist/main.js"></script>
 </body>
 </html>
